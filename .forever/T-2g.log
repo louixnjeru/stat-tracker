@@ -1,0 +1,3 @@
+Recipe App running on port 8000
+Recipe Database initialised
+error: Forever detected script was killed by signal: SIGKILL

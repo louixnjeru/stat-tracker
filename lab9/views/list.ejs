@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bookshop List</title>
+	</head>
+	<body>
+		<h1> This is List Page </h1>
+		<h3>You can see names and prices of all available books at our book shop here:</h3>
+            	<ul>
+              		<% availablebooks.forEach(function(book){ %>
+              		<li><%= book.name %>, £<%= book.price %></li>
+             		<% }) %>
+            	</ul>
+  		<a href='./'>Home</a>
+	</body>
+</html>

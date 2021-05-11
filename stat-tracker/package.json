@@ -1,0 +1,31 @@
+{
+  "name": "stat-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnjer001/stat-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lnjer001/stat-tracker/issues"
+  },
+  "homepage": "https://github.com/lnjer001/stat-tracker#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.0",
+    "chart.js": "^3.2.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nba.js": "^0.6.1",
+    "node-cron": "^3.0.0",
+    "request": "^2.88.2",
+    "table-scraper": "^1.0.3"
+  }
+}

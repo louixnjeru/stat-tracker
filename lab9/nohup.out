@@ -1,0 +1,294 @@
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/home/lnjer001/lab3/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/lnjer001/lab3/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/lnjer001/lab3/node_modules/express/lib/response.js:267:15)
+    at ServerResponse.send (/home/lnjer001/lab3/node_modules/express/lib/response.js:158:21)
+    at Query.<anonymous> (/home/lnjer001/lab3/routes/main.js:21:17)
+    at Query.<anonymous> (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:525:10)
+    at Query._callback (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:491:16)
+    at Query.Sequence.end (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+Example app listening on port ${port}!
+Connected to database
+/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/home/lnjer001/lab3/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.json (/home/lnjer001/lab3/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/home/lnjer001/lab3/node_modules/express/lib/response.js:158:21)
+    at Query.<anonymous> (/home/lnjer001/lab3/routes/main.js:21:17)
+    at Query.<anonymous> (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:525:10)
+    at Query._callback (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:491:16)
+    at Query.Sequence.end (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+Example app listening on port ${port}!
+Connected to database
+/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:485:11)
+    at ServerResponse.header (/home/lnjer001/lab3/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.json (/home/lnjer001/lab3/node_modules/express/lib/response.js:264:10)
+    at ServerResponse.send (/home/lnjer001/lab3/node_modules/express/lib/response.js:158:21)
+    at Query.<anonymous> (/home/lnjer001/lab3/routes/main.js:21:17)
+    at Query.<anonymous> (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:525:10)
+    at Query._callback (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:491:16)
+    at Query.Sequence.end (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Error: Failed to lookup view "index.ejs" in views directory "/home/lnjer001/lab3/views"
+    at Function.render (/home/lnjer001/lab3/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/lnjer001/lab3/node_modules/express/lib/response.js:1012:7)
+    at Query.<anonymous> (/home/lnjer001/lab3/routes/main.js:41:17)
+    at Query.<anonymous> (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:525:10)
+    at Query._callback (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:491:16)
+    at Query.Sequence.end (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Parser.js:433:10)
+Error: Failed to lookup view "index.ejs" in views directory "/home/lnjer001/lab3/views"
+    at Function.render (/home/lnjer001/lab3/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/lnjer001/lab3/node_modules/express/lib/response.js:1012:7)
+    at Query.<anonymous> (/home/lnjer001/lab3/routes/main.js:41:17)
+    at Query.<anonymous> (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:525:10)
+    at Query._callback (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:491:16)
+    at Query.Sequence.end (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Parser.js:433:10)
+Error: Failed to lookup view "index.ejs" in views directory "/home/lnjer001/lab3/views"
+    at Function.render (/home/lnjer001/lab3/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/lnjer001/lab3/node_modules/express/lib/response.js:1012:7)
+    at Query.<anonymous> (/home/lnjer001/lab3/routes/main.js:41:17)
+    at Query.<anonymous> (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:525:10)
+    at Query._callback (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:491:16)
+    at Query.Sequence.end (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Parser.js:433:10)
+Error: Failed to lookup view "index.ejs" in views directory "/home/lnjer001/lab3/views"
+    at Function.render (/home/lnjer001/lab3/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/lnjer001/lab3/node_modules/express/lib/response.js:1012:7)
+    at Query.<anonymous> (/home/lnjer001/lab3/routes/main.js:41:17)
+    at Query.<anonymous> (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:525:10)
+    at Query._callback (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:491:16)
+    at Query.Sequence.end (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.EofPacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/sequences/Query.js:123:8)
+    at Protocol._parsePacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Parser.js:433:10)
+Example app listening on port ${port}!
+Connected to database
+ER_BAD_FIELD_ERROR: Unknown column 'req.body.name' in 'field list'
+ER_BAD_FIELD_ERROR: Unknown column 'req.body.name' in 'field list'
+ER_BAD_FIELD_ERROR: Unknown column 'req.body.name' in 'field list'
+ER_BAD_FIELD_ERROR: Unknown column 'req.body.name' in 'field list'
+ER_BAD_FIELD_ERROR: Unknown column 'req.body.name' in 'field list'
+ER_BAD_FIELD_ERROR: Unknown column 'req.body.name' in 'field list'
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'To Kill A Mockingbird,4.99)' at line 1
+ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'To Kill A Mockingbird,4.99)' at line 1
+Example app listening on port ${port}!
+Connected to database
+ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'book,19.99)' at line 1
+ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'book,19.99)' at line 1
+ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'book,19.99)' at line 1
+ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'book,19.99)' at line 1
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+events.js:186
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:97:28)
+    at Socket.<anonymous> (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:214:15)
+    at endReadableNT (_stream_readable.js:1178:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:426:8)
+    at Protocol.emit (events.js:209:13)
+    at Protocol._delegateError (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.end (/home/lnjer001/lab3/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+    at Socket.<anonymous> (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:97:28)
+    [... lines matching original stack trace ...]
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+/home/lnjer001/lab3/routes/main.js:21
+            res.render('list.ejs', {availablebooks: result, search-term: req.query.keyword});
+                                                                  ^
+
+SyntaxError: Unexpected token -
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/home/lnjer001/lab3/index.js:24:1)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+/home/lnjer001/lab3/routes/main.js:21
+            res.render('list.ejs', {availablebooks: result, search-term: req.query.keyword});
+                                                                  ^
+
+SyntaxError: Unexpected token -
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/home/lnjer001/lab3/index.js:24:1)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+/home/lnjer001/lab3/routes/main.js:21
+            res.render('list.ejs', {availablebooks: result, search-term: req.query.keyword});
+                                                                  ^
+
+SyntaxError: Unexpected token -
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/home/lnjer001/lab3/index.js:24:1)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+/home/lnjer001/lab3/routes/main.js:21
+            res.render('list.ejs', {availablebooks: result, search-term: req.query.keyword});
+                                                                  ^
+
+SyntaxError: Unexpected token -
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/home/lnjer001/lab3/index.js:24:1)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+/home/lnjer001/lab3/routes/main.js:21
+            res.render('list.ejs', {availablebooks: result}, {search-term: req.query.keyword});
+                                                                    ^
+
+SyntaxError: Unexpected token -
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/home/lnjer001/lab3/index.js:24:1)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+ReferenceError: /home/lnjer001/lab3/views/search-result.ejs:8
+    6|         <body>
+    7|                 <h1>Search results</h1>
+ >> 8| 		<h3>Your search for "<%= req.body.keyword %>" returned these results:</h3>
+    9|                 <% availablebooks.forEach(function(book){ %>
+    10|                 <p><%= book.name %>, £<%= book.price %></p>
+    11|                 <% }) %>
+
+req is not defined
+    at eval (/home/lnjer001/lab3/views/search-result.ejs:12:26)
+    at search-result (/home/lnjer001/lab3/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/home/lnjer001/lab3/node_modules/ejs/lib/ejs.js:254:36)
+    at View.exports.renderFile [as engine] (/home/lnjer001/lab3/node_modules/ejs/lib/ejs.js:485:10)
+    at View.render (/home/lnjer001/lab3/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/lnjer001/lab3/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/lnjer001/lab3/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/lnjer001/lab3/node_modules/express/lib/response.js:1012:7)
+    at Query.<anonymous> (/home/lnjer001/lab3/routes/main.js:21:17)
+    at Query.<anonymous> (/home/lnjer001/lab3/node_modules/mysql/lib/Connection.js:525:10)
+Example app listening on port ${port}!
+Connected to database
+Example app listening on port ${port}!
+Connected to database
+(node:17001) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Example app listening on port 8000!
+Database created!

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration page</title>
+		<style>
+		div {
+			float:left;
+			width: 100%;
+			margin-bottom: 5px;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Register</h1>
+		<p>Register for the service here</p>
+		<form method="POST" action="/registered">
+			<div><input id="first" type=text" name="first" placeholder="Forename"/></div>
+			<div><input id="last" type="text" name="last" placeholder="Surname"/></div>
+			<div><input id="email" type="text" name="email" placeholder="Email"></div>
+			<div><input type="submit" value="Register"></div>
+		</form>
+	</body>
+</html>

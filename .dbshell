@@ -1,0 +1,15 @@
+show dbs
+use myfirstdatabase
+show collections
+db.accounts.find()
+db.accounts.update({"_id":ObjectId("5e2ab99f4aa17f876b1e60d5")}, set{age:49})
+db.accounts.update({"_id":ObjectId("5e2ab99f4aa17f876b1e60d5")}, set{age:49}))
+db.accounts.update({"_id":ObjectId("5e2ab99f4aa17f876b1e60d5")}, $set{age:49})
+db.accounts.update({"_id":ObjectId("5e2ab99f4aa17f876b1e60d5")}, {$set{age:49}})
+db.accounts.update({"_id": ObjectId("5e2ab99f4aa17f876b1e60d5")}, {$set{age:49}})
+db.accounts.update( {_id: ObjectId("5e2ab99f4aa17f876b1e60d5")}, {$set: {"age": 49} })
+db.accounts.find(age: 49)
+db.accounts.find({age: 49})
+db.accounts.findOne()
+db.accounts.find()
+db.accounts.find({age:38})

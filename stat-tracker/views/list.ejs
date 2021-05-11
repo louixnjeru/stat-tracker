@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Stats</title>
+                <style>
+                a {
+                        text-decoration: none;
+                        color: blue;
+                }
+                .recipe {
+                        text-align: justify;
+                }
+                .recipe > div {
+                        display: inline-block;
+                        line-height: 30px;
+                        padding: 0 5%;
+                        color: black;
+                }
+                .recipe:after {
+                        content: " ";
+                        display: inline-block;
+                        width: 100%;
+                }
+                body {
+                        padding: 5%;
+                        text-align: center;
+                }
+                </style>
+        </head>
+        <body>
+                <h1>Recipe List</h1>
+                <h3>List of all recipes uploaded to the app</h3>
+                <br>
+                <% rec.forEach(function(recipe){ %>
+                <div class='recipe'>
+                        <div class='left'><b><a href="/recipe/<%= recipe.id %>"><%= recipe.name %></a></b></div>
+                        <div class='right'>by <b><a href="/user/<%= reci
+                <% }) %>
+                <br>
+                <a href='/'>Home</a>
+        </body>
+</html>
+

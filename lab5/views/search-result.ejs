@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Search Result for "<%= searchterm %>"</title>
+        </head>
+        <body>
+                <h1>Search results</h1>
+		<h3>Your search for "<%= searchterm %>" returned these results:</h3>
+                <% availablebooks.forEach(function(book){ %>
+                <p><%= book.name %>, £<%= book.price %></p>
+                <% }) %>
+        </body>
+</html>
+

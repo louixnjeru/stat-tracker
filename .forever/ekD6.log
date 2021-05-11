@@ -1,0 +1,6 @@
+(node:26810) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Example app listening on port ${port} !
+Database created!
+$2b$10$qM4eJlMWpHRguiuu0cHnlu2iS.PuC5HNoDdck4587MzfyRuS87dGe
+$2b$10$qM4eJlMWpHRguiuu0cHnlu2iS.PuC5HNoDdck4587MzfyRuS87dGe being compared to $2b$10$Oxs38ZLJXsUU/jnDUSeNbeGzR845OzcWEqurESdOGIN8I/dIhj7JG
+error: Forever detected script was killed by signal: SIGKILL
