@@ -9,7 +9,7 @@ module.exports = function(app)
 scraper
   .get('https://www.foxsports.com/nba/standings')
   .then(function(tableData) {
-	res.render('ststs.ejs'{east: tableData[0},east:tableData[1]);
+	res.render('stats.ejs'{east: tableData[0}, west:tableData[1]);
   });
      	});
 }
